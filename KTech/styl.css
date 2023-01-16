@@ -1,0 +1,39 @@
+/* Add a background image to the header */
+header {
+  background-image: url(p.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+/* Add a gradient background to the sections */
+section {
+  background: linear-gradient(to bottom, #ff9090, #000425);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add hover effects to the buttons */
+.button:hover {
+  background-color: #ffa500;
+}
+
+/* Add an animation to the buttons */
+.button {
+  animation: pulse 0.5s infinite;
+}
+
+/* Add hover effect to the navigation links */
+nav a:hover {
+  background-color: #ffa500;
+}
+
+/* Add a gradient background to the footer */
+footer {
+  background: linear-gradient(to bottom, #ff7f00, #ffd700);
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
